@@ -1,0 +1,3 @@
+/Users/xiangweiniu/Documents/Alltree/cmake-build-debug/CMakeFiles/rebuild_cache.dir
+/Users/xiangweiniu/Documents/Alltree/cmake-build-debug/CMakeFiles/edit_cache.dir
+/Users/xiangweiniu/Documents/Alltree/cmake-build-debug/CMakeFiles/Alltree.dir
