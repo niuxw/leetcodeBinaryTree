@@ -17,6 +17,9 @@
 #include "250.h"
 #include "366.h"
 #include "337.h"
+#include "298.h"
+#include "107.h"
+#include "103.h"
 
 #include <vector>
 
@@ -33,7 +36,7 @@ void printVector(vector<T> &a){
 }
 
 template<class T>
-void print2DVector(vector<vector<T>> &a){
+void print2DVector(vector<vector<T>> a){
     for (int i =0; i < a.size(); ++i){
         vector<int> &aa = a[i];
         for (int j = 0; j < aa.size(); ++j){
@@ -202,6 +205,23 @@ int main() {
     cout << s337.p337_rob(root1) << endl;
     cout << s337.p337_rob(root2) << endl;
     cout << s337.p337_rob(root3) << endl;
-    return 0;
 
+    cout << "Binary Tree Longest Consecutive Sequence" << endl;
+    Solution298 s298;
+    cout << s298.p298_longestConsecutive(root1)<< endl;
+    cout << s298.p298_longestConsecutive(root2)<< endl;
+    cout << s298.p298_longestConsecutive(root3)<< endl;
+
+    cout << "Binary Tree Level Order Traversal II" << endl;
+    Solution107 s107;
+    print2DVector(s107.p107_levelOrderBottomIter(root1));
+    print2DVector(s107.p107_levelOrderBottomIter(root2));
+    print2DVector(s107.p107_levelOrderBottomIter(root3));
+
+    cout << "Binary Tree Zigzag Level Order Traversal" << endl;
+    Solution103 s103;
+    //print2DVector(s103.p103_zigzagLevelOrder(root1));
+    print2DVector(s103.p103_zigzagLevelOrder(root2));
+    print2DVector(s103.p103_zigzagLevelOrder(root3));
+    return 0;
 }

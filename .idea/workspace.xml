@@ -11,7 +11,21 @@
     </configurations>
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="881ee9f8-ffb2-453d-af9a-da24b1b8e0d4" name="Default Changelist" comment="" />
+    <list default="true" id="881ee9f8-ffb2-453d-af9a-da24b1b8e0d4" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/103.h" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/107.h" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/298.h" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/CMakeLists.txt" beforeDir="false" afterPath="$PROJECT_DIR$/CMakeLists.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/Alltree" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/Alltree" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/Alltree.cbp" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/Alltree.cbp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/Alltree.dir/CXX.includecache" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/Alltree.dir/CXX.includecache" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/Alltree.dir/depend.internal" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/Alltree.dir/depend.internal" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/Alltree.dir/depend.make" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/Alltree.dir/depend.make" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/Alltree.dir/main.cpp.o" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/Alltree.dir/main.cpp.o" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/main.cpp" beforeDir="false" afterPath="$PROJECT_DIR$/main.cpp" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -21,7 +35,20 @@
     <option name="formatViaClangd" value="false" />
   </component>
   <component name="ExecutionTargetManager" SELECTED_TARGET="CMakeBuildProfile:Debug" />
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="BT_c++_Header" />
+      </list>
+    </option>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
   <component name="ProjectId" id="1Us22WztZPUZpgTN5f87FZWxJkY" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true">
+    <ConfirmationsSetting value="2" id="Add" />
+  </component>
   <component name="ProjectViewState">
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showExcludedFiles" value="true" />
@@ -29,6 +56,7 @@
   </component>
   <component name="PropertiesComponent">
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
+    <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$" />
     <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
@@ -71,7 +99,7 @@
       <updated>1576130775068</updated>
       <workItem from="1576130776592" duration="38176000" />
       <workItem from="1577338719682" duration="37000" />
-      <workItem from="1577338797011" duration="15902000" />
+      <workItem from="1577338797011" duration="25863000" />
     </task>
     <servers />
   </component>
@@ -79,46 +107,54 @@
     <option name="version" value="1" />
   </component>
   <component name="WindowStateProjectService">
+    <state x="320" y="115" key="#New_File_Extensions" timestamp="1577559072178">
+      <screen x="0" y="0" width="1440" height="900" />
+    </state>
+    <state x="320" y="115" key="#New_File_Extensions/0.0.1440.900@0.0.1440.900" timestamp="1577559072178" />
+    <state x="348" y="224" key="#com.intellij.ide.fileTemplates.ui.ConfigureTemplatesDialog" timestamp="1577559558323">
+      <screen x="0" y="0" width="1440" height="900" />
+    </state>
+    <state x="348" y="224" key="#com.intellij.ide.fileTemplates.ui.ConfigureTemplatesDialog/0.0.1440.900@0.0.1440.900" timestamp="1577559558323" />
     <state width="402" height="466" key="DebuggerActiveHint" timestamp="1577440163634">
       <screen x="0" y="0" width="1440" height="900" />
     </state>
     <state width="402" height="466" key="DebuggerActiveHint/0.0.1440.900@0.0.1440.900" timestamp="1577440163634" />
-    <state width="1398" height="245" key="GridCell.Tab.0.bottom" timestamp="1577514607076">
+    <state width="1398" height="222" key="GridCell.Tab.0.bottom" timestamp="1577606092535">
       <screen x="0" y="0" width="1440" height="900" />
     </state>
-    <state width="1398" height="245" key="GridCell.Tab.0.bottom/0.0.1440.900@0.0.1440.900" timestamp="1577514607076" />
+    <state width="1398" height="222" key="GridCell.Tab.0.bottom/0.0.1440.900@0.0.1440.900" timestamp="1577606092535" />
     <state width="1398" height="245" key="GridCell.Tab.0.bottom/0.23.1440.825@0.23.1440.825" timestamp="1577328319264" />
-    <state width="1398" height="245" key="GridCell.Tab.0.center" timestamp="1577514607075">
+    <state width="1398" height="222" key="GridCell.Tab.0.center" timestamp="1577606092534">
       <screen x="0" y="0" width="1440" height="900" />
     </state>
-    <state width="1398" height="245" key="GridCell.Tab.0.center/0.0.1440.900@0.0.1440.900" timestamp="1577514607075" />
+    <state width="1398" height="222" key="GridCell.Tab.0.center/0.0.1440.900@0.0.1440.900" timestamp="1577606092534" />
     <state width="1398" height="245" key="GridCell.Tab.0.center/0.23.1440.825@0.23.1440.825" timestamp="1577328319263" />
-    <state width="1398" height="245" key="GridCell.Tab.0.left" timestamp="1577514607074">
+    <state width="1398" height="222" key="GridCell.Tab.0.left" timestamp="1577606092533">
       <screen x="0" y="0" width="1440" height="900" />
     </state>
-    <state width="1398" height="245" key="GridCell.Tab.0.left/0.0.1440.900@0.0.1440.900" timestamp="1577514607074" />
+    <state width="1398" height="222" key="GridCell.Tab.0.left/0.0.1440.900@0.0.1440.900" timestamp="1577606092533" />
     <state width="1398" height="245" key="GridCell.Tab.0.left/0.23.1440.825@0.23.1440.825" timestamp="1577328319262" />
-    <state width="1398" height="245" key="GridCell.Tab.0.right" timestamp="1577514607075">
+    <state width="1398" height="222" key="GridCell.Tab.0.right" timestamp="1577606092534">
       <screen x="0" y="0" width="1440" height="900" />
     </state>
-    <state width="1398" height="245" key="GridCell.Tab.0.right/0.0.1440.900@0.0.1440.900" timestamp="1577514607075" />
+    <state width="1398" height="222" key="GridCell.Tab.0.right/0.0.1440.900@0.0.1440.900" timestamp="1577606092534" />
     <state width="1398" height="245" key="GridCell.Tab.0.right/0.23.1440.825@0.23.1440.825" timestamp="1577328319264" />
-    <state width="1398" height="303" key="GridCell.Tab.1.bottom" timestamp="1577440183760">
+    <state width="1398" height="303" key="GridCell.Tab.1.bottom" timestamp="1577606090582">
       <screen x="0" y="0" width="1440" height="900" />
     </state>
-    <state width="1398" height="303" key="GridCell.Tab.1.bottom/0.0.1440.900@0.0.1440.900" timestamp="1577440183760" />
-    <state width="1398" height="303" key="GridCell.Tab.1.center" timestamp="1577440183759">
+    <state width="1398" height="303" key="GridCell.Tab.1.bottom/0.0.1440.900@0.0.1440.900" timestamp="1577606090582" />
+    <state width="1398" height="303" key="GridCell.Tab.1.center" timestamp="1577606090581">
       <screen x="0" y="0" width="1440" height="900" />
     </state>
-    <state width="1398" height="303" key="GridCell.Tab.1.center/0.0.1440.900@0.0.1440.900" timestamp="1577440183759" />
-    <state width="1398" height="303" key="GridCell.Tab.1.left" timestamp="1577440183759">
+    <state width="1398" height="303" key="GridCell.Tab.1.center/0.0.1440.900@0.0.1440.900" timestamp="1577606090581" />
+    <state width="1398" height="303" key="GridCell.Tab.1.left" timestamp="1577606090580">
       <screen x="0" y="0" width="1440" height="900" />
     </state>
-    <state width="1398" height="303" key="GridCell.Tab.1.left/0.0.1440.900@0.0.1440.900" timestamp="1577440183759" />
-    <state width="1398" height="303" key="GridCell.Tab.1.right" timestamp="1577440183760">
+    <state width="1398" height="303" key="GridCell.Tab.1.left/0.0.1440.900@0.0.1440.900" timestamp="1577606090580" />
+    <state width="1398" height="303" key="GridCell.Tab.1.right" timestamp="1577606090581">
       <screen x="0" y="0" width="1440" height="900" />
     </state>
-    <state width="1398" height="303" key="GridCell.Tab.1.right/0.0.1440.900@0.0.1440.900" timestamp="1577440183760" />
+    <state width="1398" height="303" key="GridCell.Tab.1.right/0.0.1440.900@0.0.1440.900" timestamp="1577606090581" />
     <state x="397" y="282" key="com.intellij.ide.util.TipDialog" timestamp="1577338816233">
       <screen x="0" y="0" width="1440" height="900" />
     </state>
@@ -128,9 +164,9 @@
     <breakpoint-manager>
       <breakpoints>
         <line-breakpoint enabled="true" type="com.jetbrains.cidr.execution.debugger.OCBreakpointType">
-          <url>file://$PROJECT_DIR$/366.h</url>
-          <line>35</line>
-          <option name="timeStamp" value="19" />
+          <url>file://$PROJECT_DIR$/103.h</url>
+          <line>52</line>
+          <option name="timeStamp" value="22" />
         </line-breakpoint>
       </breakpoints>
     </breakpoint-manager>
