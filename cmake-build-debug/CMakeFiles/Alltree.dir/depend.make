@@ -16,12 +16,14 @@ CMakeFiles/Alltree.dir/main.cpp.o: ../144.h
 CMakeFiles/Alltree.dir/main.cpp.o: ../145.h
 CMakeFiles/Alltree.dir/main.cpp.o: ../199.h
 CMakeFiles/Alltree.dir/main.cpp.o: ../226.h
+CMakeFiles/Alltree.dir/main.cpp.o: ../235.h
 CMakeFiles/Alltree.dir/main.cpp.o: ../250.h
 CMakeFiles/Alltree.dir/main.cpp.o: ../257.h
 CMakeFiles/Alltree.dir/main.cpp.o: ../298.h
 CMakeFiles/Alltree.dir/main.cpp.o: ../337.h
 CMakeFiles/Alltree.dir/main.cpp.o: ../366.h
 CMakeFiles/Alltree.dir/main.cpp.o: ../94.h
+CMakeFiles/Alltree.dir/main.cpp.o: ../98.h
 CMakeFiles/Alltree.dir/main.cpp.o: ../binaryTree.h
 CMakeFiles/Alltree.dir/main.cpp.o: ../main.cpp
 

@@ -21,6 +21,8 @@
 #include "107.h"
 #include "103.h"
 #include "199.h"
+#include "98.h"
+#include "235.h"
 
 #include <vector>
 
@@ -101,6 +103,21 @@ int main() {
     n51->right = n54;
     n52->right = n55;
     n55->right = n56;
+
+    //BST
+    TreeNode* root6 = new TreeNode(7);
+    TreeNode* n61 = new TreeNode(4);
+    TreeNode* n62 = new TreeNode(10);
+    TreeNode* n63 = new TreeNode(2);
+    TreeNode* n64 = new TreeNode(5);
+    TreeNode* n65 = new TreeNode(8);
+    TreeNode* n66 = new TreeNode(12);
+    root6->left = n61;
+    root6->right = n62;
+    n61->left = n63;
+    n61->right = n64;
+    n62->left = n65;
+    n62->right = n66;
     // preoder
     cout << "pre order" << endl;
     Solution144 s144;
@@ -230,5 +247,20 @@ int main() {
     printVector(s199.p199_rightSideView(root1));
     printVector(s199.p199_rightSideView(root2));
     printVector(s199.p199_rightSideView(root3));
+
+
+    //Binary Search Tree
+    cout << "Validate Binary Search Tree" << endl;
+    Solution98 s98;
+    cout << s98.p98_isValidBSTIter(root6)<<endl;
+    cout << s98.p98_isValidBSTIter(root2)<<endl;
+    cout << s98.p98_isValidBSTIter(root3)<<endl;
+    cout << s98.p98_isValidBST(root6)<<endl;
+    cout << s98.p98_isValidBST(root2)<<endl;
+    cout << s98.p98_isValidBST(root3)<<endl;
+
+    cout << "Lowest Common Ancestor of a Binary Search Tree" << endl;
+    Solution235 s235;
+    cout << s235.p235_lowestCommonAncestor(root2,new TreeNode(15),new TreeNode(7))->val << endl;
     return 0;
 }

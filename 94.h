@@ -31,9 +31,7 @@ public:
             r.push_back(curNode->val);
             s.pop();
             curNode = curNode->right;
-
         }
-
         return r;
     }
 
