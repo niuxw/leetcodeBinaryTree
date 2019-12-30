@@ -20,6 +20,7 @@
 #include "298.h"
 #include "107.h"
 #include "103.h"
+#include "199.h"
 
 #include <vector>
 
@@ -28,7 +29,7 @@
 using namespace std;
 
 template<class T>
-void printVector(vector<T> &a){
+void printVector(vector<T> a){
     for (int i =0; i < a.size(); ++i){
         cout << a[i] << ",";
     }
@@ -223,5 +224,11 @@ int main() {
     //print2DVector(s103.p103_zigzagLevelOrder(root1));
     print2DVector(s103.p103_zigzagLevelOrder(root2));
     print2DVector(s103.p103_zigzagLevelOrder(root3));
+
+    cout << "Binary Tree Right Side View" << endl;
+    Solution199 s199;
+    printVector(s199.p199_rightSideView(root1));
+    printVector(s199.p199_rightSideView(root2));
+    printVector(s199.p199_rightSideView(root3));
     return 0;
 }
