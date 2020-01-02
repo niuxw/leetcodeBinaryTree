@@ -23,6 +23,8 @@
 #include "199.h"
 #include "98.h"
 #include "235.h"
+#include "236.h"
+#include "108.h"
 
 #include <vector>
 
@@ -262,5 +264,20 @@ int main() {
     cout << "Lowest Common Ancestor of a Binary Search Tree" << endl;
     Solution235 s235;
     cout << s235.p235_lowestCommonAncestor(root2,new TreeNode(15),new TreeNode(7))->val << endl;
+
+    cout << "Lowest Common Ancestor of a Binary Tree" << endl;
+    Solution236 s236;
+    cout << s236.p236_lowestCommonAncestor(root2,new TreeNode(15),new TreeNode(7))->val << endl;
+    cout << s236.p236_lowestCommonAncestor(root2,new TreeNode(9),new TreeNode(20))->val << endl;
+    cout << s236.p236_lowestCommonAncestor(root2,new TreeNode(9),new TreeNode(7))->val << endl;
+    cout << s236.p236_lowestCommonAncestor2(root2,new TreeNode(15),new TreeNode(7))->val << endl;
+    cout << s236.p236_lowestCommonAncestor2(root2,new TreeNode(9),new TreeNode(20))->val << endl;
+    cout << s236.p236_lowestCommonAncestor2(root2,new TreeNode(9),new TreeNode(7))->val << endl;
+
+    cout <<"Convert Sorted Array to Binary Search Tree" << endl;
+    Solution108 s108;
+    vector<int> p108p1 = {-10,-3,0,5,9};
+    TreeNode* p108r1 = s108.p108_sortedArrayToBST(p108p1);
+    printVector(s144.p144_preorderTraversal(p108r1));
     return 0;
 }
