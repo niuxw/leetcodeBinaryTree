@@ -1,5 +1,6 @@
 #include <iostream>
 #include "binaryTree.h"
+#include "ListNode.h"
 #include "144.h"
 #include "94.h"
 #include "145.h"
@@ -25,6 +26,9 @@
 #include "235.h"
 #include "236.h"
 #include "108.h"
+#include "109.h"
+#include "173.h"
+#include "230.h"
 
 #include <vector>
 
@@ -279,5 +283,45 @@ int main() {
     vector<int> p108p1 = {-10,-3,0,5,9};
     TreeNode* p108r1 = s108.p108_sortedArrayToBST(p108p1);
     printVector(s144.p144_preorderTraversal(p108r1));
+
+    ListNode* l1 = new ListNode(-10);
+    ListNode* l2 = new ListNode(-3);
+    ListNode* l3 = new ListNode(0);
+    ListNode* l4 = new ListNode(5);
+    ListNode* l5 = new ListNode(9);
+    l1->next = l2;l2->next = l3;l3->next = l4;l4->next = l5;
+
+    cout <<"Convert Sorted List to Binary Search Tree" << endl;
+    Solution109 s109;
+    TreeNode* p109r1 = s109.p109_sortedListToBST1(l1);
+    printVector(s144.p144_preorderTraversal(p109r1));
+
+    cout << "Binary Search Tree Iterator" << endl;
+    BSTIterator* iterator = new BSTIterator(root6);
+    cout << iterator->next() << ", " <<   // return 3
+    iterator->next()<< ", " <<    // return 7
+    iterator->hasNext()<< ", " <<  // return true
+    iterator->next()<< ", " <<     // return 9
+    iterator->hasNext()<< ", " <<  // return true
+    iterator->next()<< ", " <<    // return 15
+    iterator->hasNext()<< ", " <<  // return true
+    iterator->next()<< ", " <<     // return 20
+    iterator->hasNext() << endl; // return false
+
+    cout <<"Kth Smallest Element in a BST" <<endl;
+    Solution230 s230;
+    cout << s230.p230_kthSmallestIter(root6, 1) << "," <<
+    s230.p230_kthSmallestIter(root6, 2) << "," <<
+    s230.p230_kthSmallestIter(root6, 3) << "," <<
+    s230.p230_kthSmallestIter(root6, 4) << "," <<
+    s230.p230_kthSmallestIter(root6, 5) << "," <<
+    s230.p230_kthSmallestIter(root6, 6) << endl;
+
+    cout << s230.p230_kthSmallest(root6, 1) << "," <<
+         s230.p230_kthSmallest(root6, 2) << "," <<
+         s230.p230_kthSmallest(root6, 3) << "," <<
+         s230.p230_kthSmallest(root6, 4) << "," <<
+         s230.p230_kthSmallest(root6, 5) << "," <<
+         s230.p230_kthSmallest(root6, 6) << endl;
     return 0;
 }
